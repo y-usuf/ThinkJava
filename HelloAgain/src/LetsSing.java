@@ -48,7 +48,7 @@ public class LetsSing {
     }
 
     public static void main(String[] args) {
-        countDown(3);
+        countDown(5);
 
     }
 }
