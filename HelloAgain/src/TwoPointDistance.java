@@ -23,9 +23,14 @@ public class TwoPointDistance {
         return Math.PI * radius * radius;
     }
 
-    // Boolean methods - returns true if the statement holds
+    /*
+    Tests whether x is a single digit
+
+    @param x the integer to test
+    @return true if x has one digit, otherwise false
+     */
     public static boolean isSingleDigit(double x) {
-        return x > -10 && x < 10;
+        return x > -10.0 && x < 10.0;
     }
 
 }
