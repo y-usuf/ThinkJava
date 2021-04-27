@@ -6,6 +6,7 @@ public class TwoPointDistance {
         double area = calculateAreaOfACircle(rad);
         System.out.println(rad);
         System.out.println(area);
+        System.out.println(isSingleDigit(rad));  // checks whether the radius is a single digit
 
     }
 
@@ -20,6 +21,11 @@ public class TwoPointDistance {
     // Finds the area of a circle
     public static double calculateAreaOfACircle (double radius) {
         return Math.PI * radius * radius;
+    }
+
+    // Boolean methods - returns true if the statement holds
+    public static boolean isSingleDigit(double x) {
+        return x > -10 && x < 10;
     }
 
 }
